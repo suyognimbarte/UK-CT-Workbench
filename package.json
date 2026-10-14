@@ -1,0 +1,22 @@
+{
+  "name": "uk-ct-workbench",
+  "version": "1.0.0",
+  "description": "UK Corporation Tax Workbench",
+  "main": "main.js",
+  "scripts": {
+    "prep": "node prep.js",
+    "start": "npm run prep && electron .",
+    "dist": "npm run prep && electron-builder --win nsis portable"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "local.ukct.workbench",
+    "productName": "UK CT Workbench",
+    "files": ["main.js", "app/**/*"],
+    "win": { "icon": "app/icons/icon-512.png" },
+    "directories": { "output": "dist" }
+  }
+}

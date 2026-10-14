@@ -1,0 +1,15 @@
+{
+  "name": "UK Corporation Tax Workbench",
+  "short_name": "CT Workbench",
+  "description": "Trial balance or general ledger to UK corporation tax computation, with S455, capital allowances, R&D, losses and deadlines.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#edf0f3",
+  "theme_color": "#0b5560",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
